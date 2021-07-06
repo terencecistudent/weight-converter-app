@@ -58,11 +58,11 @@ You can download it from here: https://code.visualstudio.com/
 
 ### Manual Tests
 
-Manual tests can be found here (To be completed)
+Manual tests can be found here: [Manual Tests](https://github.com/terencecistudent/weight-converter-app/blob/main/Tests/Manual_Tests.pdf)
 
 ### Responsiveness on different devices
 
-To be completed
+Response Tests can be found here: [Responsive Tests](https://github.com/terencecistudent/weight-converter-app/blob/main/Tests/Responsiveness_Tests.pdf)
 
 ### Running Responsive Designs on Google Chrome
 
