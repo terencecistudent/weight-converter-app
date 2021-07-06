@@ -1,0 +1,36 @@
+body {
+  margin-top: 50px;
+  background-color: #333;
+  color: #fff;
+  text-align: -webkit-center;
+}
+
+.container {
+  box-shadow: 0 0 2px 3px;
+  padding: 10px;
+  background-color: rgb(202, 202, 202);
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.pounds-input {
+  border: 1px solid #333;
+}
+
+input {
+  max-width: 80%;
+  text-align: -webkit-center;
+}
+
+#output {
+  text-align: -webkit-center;
+  min-height: 350px;
+}
+
+.card {
+  max-width: 80%;
+}
+
+.weight-font-size {
+  font-size: x-large;
+}
