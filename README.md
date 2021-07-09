@@ -6,7 +6,8 @@ This app is a weight coverter that coverts pounds (lbs) into grams, kilograms, s
 
 ## Wireframes
 
-To be completed.
+I have used Figma to create my wireframes for this application.
+Wireframes can be found [here](https://github.com/terencecistudent/weight-converter-app/blob/main/Wireframes/weight-converter.pdf).
 
 ## UX
 
