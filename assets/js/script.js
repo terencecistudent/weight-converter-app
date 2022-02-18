@@ -8,7 +8,7 @@ const output_div = document.getElementById("output");
 const resetBtn = document.getElementById("reset-btn");
 
 input.addEventListener("input", (e) => {
-  output_div.style.visibility = "visible";
+  // output_div.classList.add("visibility-visible");
 
   let lbs = e.target.value;
   grams.innerHTML = lbs * 453.592;

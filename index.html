@@ -9,53 +9,48 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Weight Converter</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="text-center mb-3 text-white">Weight Converter</h1>
-        <div class="row text-center mt-5">
-            <div class="col-sm-12 col-md-6">
-                <form class="justify-content-center">
-                    <div class="form-group" style="text-align: -webkit-center;">
-                        <input type="number" id="lbsInput" placeholder="Enter Pounds (lbs)..."
-                            class="pounds-input form-control form-control-lg">
-                    </div>
-                </form>
-            </div>
-            <div class="col-sm-12 col-md-6">
-                <div id="output">
-                    <div class="card bg-primary mb-2">
-                        <div class="card-block py-1">
-                            <h4>Grams (g):</h4>
-                            <div id="gramsOutput" class="weight-font-size"></div>
+    <div class="converter-container">
+        <div class="container rounded shadow">
+            <div class="row text-center mt-5 row-weights">
+                <div class="col-sm-12 col-md-6">
+                    <form>
+                        <div class="form-group" style="text-align: -webkit-center;">
+                            <input type="number" id="lbsInput" placeholder="Enter Pounds (lbs)..."
+                                class="pounds-input form-control form-control-lg">
                         </div>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6 weights-col">
+                    <div class="card mb-2">
+                        <p>Grams (g):</p>
+                        <div id="gramsOutput" class="weight-font-size">0</div>
                     </div>
-                    <div class="card bg-success mb-2">
-                        <div class="card-block py-1">
-                            <h4>Kilograms (kg):</h4>
-                            <div id="kgOutput" class="weight-font-size"></div>
-                        </div>
+                    <div class="card mb-2">
+                        <p>Kilograms (kg):</p>
+                        <div id="kgOutput" class="weight-font-size">0</div>
                     </div>
-                    <div class="card bg-danger mb-2">
-                        <div class="card-block py-1">
-                            <h4>Ounces (oz.):</h4>
-                            <div id="ozOutput" class="weight-font-size"></div>
-                        </div>
+                    <div class="card mb-2">
+                        <p>Ounces (oz.):</p>
+                        <div id="ozOutput" class="weight-font-size">0</div>
                     </div>
-                    <div class="card bg-warning mb-2">
-                        <div class="card-block">
-                            <h4>Stone (st.):</h4>
-                            <div id="stoneOutput" class="weight-font-size"></div>
-                        </div>
+                    <div class="card mb-2">
+                        <p>Stone (st.):</p>
+                        <div id="stoneOutput" class="weight-font-size">0</div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row my-4">
-            <div class="col text-center">
-                <button type="reset" id="reset-btn" class="btn btn-dark btn-lg">Reset</button>
+            <div class="row my-4">
+                <div class="col text-center">
+                    <button type="reset" id="reset-btn" class="btn btn-light shadow btn-lg">Reset</button>
+                </div>
             </div>
         </div>
     </div>
